@@ -12,11 +12,11 @@
             <span>lifepoints</span>
            <input class="point_fields" id="player_one_points" value="one">
         </label>
-        
+
         <label class="points" id="computer">
-        <span>lifepoints</span>
-        <input class="point_fields" id="computer_points value="two">
-            /label>
+            <span>lifepoints</span>
+            <input class="point_fields" id="computer_points value="two">
+        </label>
         </div>
 
     <div class="container">
@@ -45,7 +45,7 @@
     
     <link rel="stylesheet" href="style.css" />
 
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
     <aside>
       <aside class="game-board side info">
         <div class="side-info-container">
@@ -58,7 +58,10 @@
             </code>
       </aside>
     </aside>
-    <div class="game-board" id="game-board">
+    <div class="game-board" >
+      <div class="player_zone player1">
+        <h3>player1</h3>
+        <div class="zone" id="player1-monster-zone">
       <div class="zone monster-zone">monster zone</div>
       <div class="zone spell-zone">spell/trap zone</div>
       <div class="zone deck-zone">deck</div>
@@ -88,5 +91,18 @@
                 <img class="card-face back" src="images/RUSH_CardBack.png">
               </div>
 </div>
-<di
+<div class="deck">
+  <div class="card">
+  </div>
+</div>
+<div class="card-deck">
+
+  </div>
+</div>
+<div class="card-deck">
+
+</div>
+  </div>
+
+
 </html>
