@@ -1,1 +1,1 @@
-s
+let health= document.getElementBy lifepoints.value -=10;
